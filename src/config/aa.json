@@ -1,0 +1,280 @@
+{
+  "GG": [
+    {
+      "id": 0,
+      "prop": {
+        "gender": "U",
+        "fName": "2",
+        "nodeNumber": "II-1"
+      },
+      "outedges": [
+        {
+          "to": 5
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "chhub": true, // TYPE.CHILDHUB 儿童中心
+      "prop": {},
+      "outedges": [
+        {
+          "to": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rel": true, // TYPE.RELATIONSHIP 关系
+      "hub": true, // TYPE.RELATIONSHIP 关系
+      "prop": {
+        "consangr": "Y",
+        "broken": true
+      },
+      "outedges": [
+        {
+          "to": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prop": {
+        "gender": "F",
+        "fName": "2",
+        "nodeNumber": "I-2"
+      },
+      "outedges": [
+        {
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "prop": {
+        "gender": "M",
+        "fName": "1",
+        "nodeNumber": "I-1"
+      },
+      "outedges": [
+        {
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "rel": true,
+      "hub": true,
+      "prop": {
+        "broken": true
+      },
+      "outedges": [
+        {
+          "to": 7
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "prop": {
+        "gender": "U",
+        "fName": "4",
+        "nodeNumber": "II-2"
+      },
+      "outedges": [
+        {
+          "to": 5
+        },
+        {
+          "to": 9
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chhub": true,
+      "prop": {},
+      "outedges": [
+        {
+          "to": 8
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "prop": {
+        "gender": "U",
+        "fName": "6",
+        "nodeNumber": "III-1"
+      },
+      "outedges": [
+        {
+          "to": 13
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "rel": true,
+      "hub": true,
+      "prop": {
+        "consangr": "Y" // Consanguinity of this relationship
+      },
+      "outedges": [
+        {
+          "to": 11
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "prop": {
+        "gender": "U",
+        "fName": "5",
+        "nodeNumber": "II-3"
+      },
+      "outedges": [
+        {
+          "to": 9
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chhub": true,
+      "prop": {},
+      "outedges": [
+        {
+          "to": 12
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "prop": {
+        "gender": "U",
+        "fName": "8",
+        "nodeNumber": "III-3"
+      }
+    },
+    {
+      "id": 13,
+      "rel": true,
+      "hub": true,
+      "prop": {
+        "consangr": "Y",
+        "broken": true // Separated 离婚
+      },
+      "outedges": [
+        {
+          "to": 15
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "prop": {
+        "gender": "U",
+        "fName": "7",
+        "nodeNumber": "III-2"
+      },
+      "outedges": [
+        {
+          "to": 13
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chhub": true,
+      "prop": {},
+      "outedges": [
+        {
+          "to": 16
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "prop": {
+        "gender": "U",
+        "fName": "9",
+        "nodeNumber": "IV-1"
+      }
+    }
+  ],
+  "ranks": [
+    3,
+    2,
+    1,
+    1,
+    1,
+    3,
+    3,
+    4,
+    5,
+    3,
+    3,
+    4,
+    5,
+    5,
+    5,
+    6,
+    7
+  ], // 等级
+  "order": [
+    [],
+    [
+      4,
+      2,
+      3
+    ],
+    [
+      1
+    ],
+    [
+      0,
+      5,
+      6,
+      9,
+      10
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      8,
+      13,
+      14,
+      12
+    ],
+    [
+      15
+    ],
+    [
+      16
+    ]
+  ],
+  "positions": [
+    5,
+    5,
+    5,
+    17,
+    -7,
+    17,
+    29,
+    17,
+    17,
+    61,
+    73,
+    61,
+    61,
+    29,
+    41,
+    29,
+    29
+  ]
+}

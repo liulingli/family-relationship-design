@@ -1,0 +1,140 @@
+{
+  "GG": [
+    {
+      "id": 0,
+      "prop": {
+        "gender": "U"
+      }
+    },
+    {
+      "id": 1,
+      "chhub": true,
+      "prop": {},
+      "outedges": [
+        {
+          "to": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rel": true,
+      "hub": true,
+      "prop": {},
+      "outedges": [
+        {
+          "to": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prop": {
+        "gender": "F"
+      },
+      "outedges": [
+        {
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "prop": {
+        "gender": "M"
+      },
+      "outedges": [
+        {
+          "to": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chhub": true,
+      "prop": {},
+      "outedges": [
+        {
+          "to": 4
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "rel": true,
+      "hub": true,
+      "prop": {},
+      "outedges": [
+        {
+          "to": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "prop": {
+        "gender": "F"
+      },
+      "outedges": [
+        {
+          "to": 6
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "prop": {
+        "gender": "M"
+      },
+      "outedges": [
+        {
+          "to": 6
+        }
+      ]
+    }
+  ],
+  "ranks": [
+    5,
+    4,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1,
+    1
+  ],
+  "order": [
+    [],
+    [
+      8,
+      6,
+      7
+    ],
+    [
+      5
+    ],
+    [
+      4,
+      2,
+      3
+    ],
+    [
+      1
+    ],
+    [
+      0
+    ]
+  ],
+  "positions": [
+    5,
+    5,
+    5,
+    17,
+    -7,
+    -7,
+    -7,
+    5,
+    -19
+  ]
+}

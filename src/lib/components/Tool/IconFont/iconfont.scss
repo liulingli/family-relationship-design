@@ -1,0 +1,44 @@
+// 注意: 开发过程中可以直接引用网址，
+// 正式环境需引用本地文件
+@font-face {
+  font-family: 'iconfont';  /* project id 2418328 */
+  src: url('//at.alicdn.com/t/font_2418328_zm6xke68q2r.eot');
+  src: url('//at.alicdn.com/t/font_2418328_zm6xke68q2r.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2418328_zm6xke68q2r.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2418328_zm6xke68q2r.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2418328_zm6xke68q2r.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2418328_zm6xke68q2r.svg#iconfont') format('svg');
+}
+
+//@font-face {
+//  font-family: 'iconfont';  /* project id 1134953 */
+//  src: url('./iconfont/iconfont.eot');
+//  src: url('./iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+//  url('./iconfont/iconfont.woff2') format('woff2'),
+//  url('./iconfont/iconfont.woff') format('woff'),
+//  url('./iconfont/iconfont.ttf') format('truetype'),
+//  url('./iconfont/iconfont.svg#iconfont') format('svg');
+//}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// 正方形
+.icon-rect:before {
+  content: "\e706";
+}
+
+// 圆形
+.icon-circle:before {
+  content: "\e708";
+}
+
+// 菱形
+.icon-diamond:before {
+  content: "\e636";
+}
